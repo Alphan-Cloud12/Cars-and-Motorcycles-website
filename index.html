@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The cars and motorcycles website</title>
+</head>
+
+<body class="center-container">
+  <h1 class="hOne">Welcome to The Cars & Motorcycles platform!</h1>
+  <h2 class="hTwo">
+    Click on the image to know what vehicles it is, explore different types of
+    varieties of
+    <em class="em">"super-vehicles"</em> and find out their names too! You can
+    also add new different types of vehicles, and please add real vehicles!
+  </h2>
+  <div class="style">
+    <button id="chironButton">
+      <img class="cars" src="Cars\bugattio-chiron.jpg" alt="Bugatti Chiron" />
+    </button>
+    <button id="aventadorButton">
+      <img class="cars" src="Cars/Lamborghini-Aventador.webp" alt="Lamborghini Aventador" />
+    </button>
+    <button id="jeskoAttackButton">
+      <img class="cars" src="Cars/Jesko-Absolut.webp" alt="Koenigsegg Jesko Attack" />
+    </button>
+    <button id="henesseyVenomButton">
+      <img class="cars" src="Cars\HenesseyVenom.jpg" alt="Henessey Venom" />
+    </button>
+    <button id="supraButton">
+      <img class="cars" src="Cars\Toyota-Supra.webp" alt="Toyota Supra" />
+    </button>
+    <button id="amgButton">
+      <img class="cars" src="Cars/Mercedes-AMG-Range.jpg" alt="Mercedes AMG Range" />
+    </button>
+    <button id="corvetteButton">
+      <img class="cars" src="Cars/Chevorlet-Corvette.webp" alt="Chevorlet Corvette" />
+    </button>
+    <button id="enzoButton">
+      <img class="cars" src="Cars\Ferrari-Envo.jpg" alt="Ferrari Enzo" />
+    </button>
+    <div id="gasCarDiv"></div>
+    <div>
+      <div>
+        <button onclick="addCarImage()" class="addButton" id="addCarButton">
+          Add Gas Car
+        </button>
+      </div>
+      <div>
+        <button onclick="delGasCarImg()" class="delButton" id="delCarButton">
+          Delete Car
+        </button>
+      </div>
+    </div>
+    <div>
+      <button id="Ninjah2rButton">
+        <img class="motorcycles" src="Motorbikes/NinjaH2r.jpg" alt="Kawasaki Ninja H2R" />
+      </button>
+
+      <button id="MTT420-RRButton">
+        <img class="motorcycles" src="Motorbikes\MTT 420-RR.jpg" alt="MTT420-RR" />
+      </button>
+      <button id="hayabusaButton">
+        <img class="motorcycles" src="Motorbikes/Suzuki-Hayabusa.jpg" alt="Maruti Suzuki Hayabusa" />
+      </button>
+      <div id="gasBikeDiv"></div>
+      <div>
+        <button class="addButton" id="addBikeButton" onclick="addBikeImage()">
+          Add Gas Motorcycle Image
+        </button>
+      </div>
+      <div>
+        <button onclick="delGasBikeImage()" class="delButton" id="delBikeButton">
+          Delete Image
+        </button>
+      </div>
+    </div>
+    <h2 class="hTwo">Vehicles that run on <em>"electricity"</em> are here!</h2>
+    <div>
+      <button id="deusVayenneButton">
+        <img class="cars" src="Cars\DeusVayenne.jpg" alt="Deus Vayenne" />
+      </button>
+      <button id="tataNexonEVButton">
+        <img class="cars" src="Cars/Tata-Nexon-EV.webp" alt="Tata Tata-Nexon-EV" />
+      </button>
+      <button id="rollsRoyceEVButton">
+        <img class="cars" src="Cars/Rolls-Royce-EV.webp" alt="Rolls Royce Spectre" />
+      </button>
+      <button id="tesla3Button">
+        <img class="cars" src="Cars/TeslaModel3.webp" alt="Tesla Model 3" />
+      </button>
+      <button id="porscheTaycanButton">
+        <img class="cars" src="Cars/PorscheTaycan.jpg" alt="Porsche Taycan" />
+      </button>
+      <button id="bmwi7Button">
+        <img class="cars" src="Cars\BMWi7.jpg" alt="BMW i7" />
+      </button>
+      <div id="electricCarDiv"></div>
+      <div>
+        <button onclick="addElectricCarImage()" class="addButton" id="addElectricCarButton">
+          Add Electric Car
+        </button>
+      </div>
+      <div>
+        <button onclick="delElectricCarImage()" class="delButton" id="delElectricCarButton">
+          Delete Image
+        </button>
+      </div>
+    </div>
+    <div>
+      <button id="voxanWattmanButton">
+        <img class="motorcycles" src="Motorbikes\Voxan-Wattman.webp" alt="Voxan Wattman" />
+      </button>
+      <button id="bmwCButton">
+        <img class="motorcycles" src="Motorbikes/BMWcEvolution.webp" alt="BMW C
+        Evolution" />
+      </button>
+      <button id="livewireButton">
+        <img class="motorcycles" src="Motorbikes/HarleyDavidsonLivewire.jpg" alt="Harley Davidson Livewire" />
+      </button>
+      <button id="zeroSrfButton">
+        <img class="motorcycles" src="Motorbikes\Zero-srf.jpg" alt="Zero SR/F" />
+      </button>
+      <button id="arcVectorButton">
+        <img class="motorcycles" src="Motorbikes/ArcVector.webp" alt="Arc Vector" />
+      </button>
+      <div id="electricBikeDiv"></div>
+      <div>
+        <button onclick="addElectricBikeImage()" class="addButton" id="addElectricBikeButton">
+          Add Electric Bike
+        </button>
+      </div>
+      <div>
+        <button onclick="delElectricBikeImage()" class="delButton" id="delElectricBikeButton">
+          Delete Image
+        </button>
+      </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+
+</html>
